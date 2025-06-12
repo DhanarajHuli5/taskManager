@@ -1,11 +1,30 @@
-import {asyncHandler} from "../utils/async-handler.js"
+import { asyncHandler } from "../utils/async-handler.js";
+const registerUser = asyncHandler(async (req, res) => {});
 
+const loginUser = asyncHandler(async (req, res) => {});
 
-const registerUser = asyncHandler(async(req,res) => { 
-    const {email, username, password, role} = req.body
+const logoutUser = asyncHandler(async (req, res) => {});
 
-    // validation
-     
-})
+const verifyEmail = asyncHandler(async (req, res) => {});
 
-export {registerUser}
+const resendEmailVerification = asyncHandler(async (req, res) => {});
+
+const resetForgottenPassword = asyncHandler(async (req, res) => {
+
+});
+
+const refreshAccessToken = asyncHandler(async (req, res) => {
+
+});
+
+const forgotPasswordRequest = asyncHandler(async (req, res) => {
+
+});
+
+const changeCurrentPassword = asyncHandler(async (req, res) => {
+
+});
+
+const getCurrentUser = asyncHandler(async (req, res) => {
+
+});
