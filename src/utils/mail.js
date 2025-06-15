@@ -15,7 +15,7 @@ const sendEmail = async (options) => {
     },
   });
 
-  // For more info on how mailgen content work visit https://github.com/eladnava/mailgen#readme
+
   // Generate the plaintext version of the e-mail (for clients that do not support HTML)
   const emailTextual = mailGenerator.generatePlaintext(options.mailgenContent);
 
